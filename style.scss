@@ -1,0 +1,14 @@
+body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#piskel {
+  width: 40%;
+  height: auto;
+  max-width: 512px;
+  max-height: 512px;
+}
