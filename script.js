@@ -76,4 +76,15 @@ window.onload = function () {
         }
     }
 
+    document.getElementById('4x4').addEventListener('click', function() {
+        fourxfour();
+    });
+
+    document.getElementById('32x32').addEventListener('click', function() {
+        x32();
+    });
+
+    document.getElementById('256x256').addEventListener('click', function() {
+        imgResize();
+    });
 }
