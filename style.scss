@@ -31,7 +31,7 @@ body {
 .main {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   & .instruments {
     width: 25%;
     display: flex;
@@ -102,10 +102,11 @@ body {
 }
 
 #piskel {
-  width: 40%;
+  width: 35%;
   height: auto;
   max-width: 512px;
   max-height: 512px;
+  margin-top: 5%;
 }
 
 .header {
